@@ -26,7 +26,7 @@ def webServer(local_host="127.0.0.1", port=13331):
       # Prepare the HTTP 200 OK response header and add the file contents
       output_data = (
         "HTTP/1.1 200 OK\r\n"
-        "Server: Computer Networks: Programming\r\n"
+        "CN WEBSERVER ASSIGNMENT\r\n"
         "Content-Type: text/html; charset=UTF-8\r\n"
         "Connection: close\r\n\r\n"
       ).encode('utf-8') + file_data
