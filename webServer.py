@@ -1,4 +1,4 @@
-# import socket module
+# Msg8065 import socket module
 from socket import *
 # In order to terminate the program
 import sys
